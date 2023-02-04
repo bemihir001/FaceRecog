@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    background: url(./Bgimg.png) no-repeat center center/cover;
+    height: 740px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+li {
+    /* float: left; */
+    position: relative;
+    margin-top: 30px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #333;
+    border-radius: 15px;
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#firstbtn{
+    margin-left: 30px;
+}
+
+#secondbtn{
+    margin-left: 471px;
+}
+
+#searchbox{
+    height: 20px;
+    margin-left: 350px;
+    width: 423px;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+model-viewer{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}

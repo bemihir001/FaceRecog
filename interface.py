@@ -29,10 +29,6 @@ label_widget = Label(app)
 label_widget.pack()
 
 
-# Create a function to open camera and
-# display it in the label_widget on app
-
-
 def open_camera():
     # Capture the video frame by frame
     _, frame = vid.read()
